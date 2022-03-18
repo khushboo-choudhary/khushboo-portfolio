@@ -1,0 +1,26 @@
+.mainsection {
+    width: 100%;
+  }
+  
+  .mainsection > :nth-child(1) {
+    margin-bottom: 2em;
+ 
+  }
+  
+  .vertical-timeline-element-subtitle {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+  
+  }
+ 
+  .content{
+    border: 5px solid var(--clr-primary);
+    padding: 15px;
+  }
+ 
+  .vertical-timeline-element-title {
+    font-size: 1.1em;
+    color: var(--clr-primary);
+    
+  }
+  
