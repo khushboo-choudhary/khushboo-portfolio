@@ -5,7 +5,6 @@ import { ThemeContext } from "../../Context/theme";
 import "./Header.css";
 export const Header = () => {
   const [{ themename }] = React.useContext(ThemeContext);
-
   return (
     <>
       <header className={"header center " + themename}>
