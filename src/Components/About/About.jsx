@@ -30,7 +30,7 @@ export const About = () => {
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/dipthic"
+            href="https://github.com/khushboo-choudhary"
             aria-label="github"
             target="_blank"
             rel="noreferrer"

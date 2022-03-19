@@ -9,7 +9,7 @@ export const Footer = () => {
     <>
       <div className={"section " + themename}>
         <a
-          href="https://github.com/dipthic"
+          href="https://github.com/khushboo-choudhary"
           rel="noreferrer"
           target="_blank"
         >
