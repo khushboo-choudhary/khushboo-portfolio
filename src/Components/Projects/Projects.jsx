@@ -1,20 +1,20 @@
 import React from "react";
 import "./Projects.css";
 // import { FaReact, FaHardHat } from "react-icons/fa";
-// import {
+import {
 //   SiBlockchaindotcom,
 //   SiHtml5,
-//   SiMaterialui,
+  SiMaterialui,
 //   SiChai,
 //   SiEthereum,
-//   SiExpress,
+  SiExpress,
 //   SiSocketdotio,
-//   SiTailwindcss,
-//   SiReactrouter,
+  SiTailwindcss,
+  SiReactrouter,
 //   SiJavascript,
-//   SiMongodb,
+  SiMongodb,
 //   SiNodedotjs
-// } from "react-icons/si";
+} from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 // import { VscJson } from "react-icons/vsc";
@@ -124,18 +124,23 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Movie Search </h2>
+              <h2>Store.rockstargames </h2>
               <p>
-                Built the Movie Search application using javascript. The Debouncing and authentication functionalities are implemented.
+                Built the rockstoregames application using React. The google authentication and payment functionalities are implemented.
               </p>
               <div>
                 <IoLogoJavascript />
+                <SiMaterialui/>
+                <SiExpress/>
                 <DiCss3 />
                 <SiHtml5 />
+                <SiTailwindcss/>
+                <SiReactrouter/>
+                <SiMongodb/>
               </div>
               <div>
                 <a
-                  href="https://moviesearch2021.netlify.app/"
+                  href="https://store-rockstargames.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -144,7 +149,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/dipthic/movieSearch"
+                  href="https://github.com/khushboo-choudhary/store.rockstartgames.com-Frontend-Clone"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -178,7 +183,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://youtubeclone2021.netlify.app/"
+                  href="https://youtube-clone-sandy.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -187,7 +192,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/dipthic/youtube"
+                  href="https://github.com/khushboo-choudhary/Youtube-Clone"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -221,7 +226,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://weatherapi2021.netlify.app/"
+                  href="https://weather-vert-ten.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -230,7 +235,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/dipthic/weather"
+                  href="https://github.com/khushboo-choudhary/weather"
                   target="_blank"
                   rel="noreferrer"
                 >
