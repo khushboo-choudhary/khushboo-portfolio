@@ -118,8 +118,8 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="movieSearch.png"
-                  alt="movieSearch"
+                  src="rockstar.png"
+                  alt="rockstar"
                 />
               </div>
             </div>
@@ -166,8 +166,8 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="youtube.png"
-                  alt="youtube"
+                  src="youTube.png"
+                  alt="youTube"
                 />
               </div>
             </div>
