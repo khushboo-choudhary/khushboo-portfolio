@@ -13,7 +13,7 @@ import {
   SiReactrouter,
 //   SiJavascript,
   SiMongodb,
-//   SiNodedotjs
+  SiNodedotjs
 } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
@@ -89,6 +89,9 @@ export const Projects = () => {
                 <IoLogoJavascript />
                 <DiCss3 />
                 <SiHtml5 />
+                <SiExpress/>
+                <SiMongodb/>
+                <SiNodedotjs/>
               </div>
               <div>
                 <a
@@ -137,6 +140,7 @@ export const Projects = () => {
                 <SiTailwindcss/>
                 <SiReactrouter/>
                 <SiMongodb/>
+                <SiNodedotjs/>
               </div>
               <div>
                 <a
