@@ -95,7 +95,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://optimistic-fermat-8bc5e2.netlify.app/index.html"
+                  href="https://sleepy-scrubland-64819.herokuapp.com/home"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -104,7 +104,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/sauravsaran99/tatacliq/tree/main/tatacliq"
+                  href="https://github.com/khushboo-choudhary/TataCliq-backend-clone"
                   target="_blank"
                   rel="noreferrer"
                 >
