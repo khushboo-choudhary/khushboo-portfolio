@@ -26,8 +26,8 @@ export const Github = () => {
           username="khushboo-choudhary"
           blockSize={15}
           blockMargin={5}
-          fontSize={16}
-       
+          fontSize={18}
+      
         />
       </div>
     </>
