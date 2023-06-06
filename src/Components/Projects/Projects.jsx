@@ -95,7 +95,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://sleepy-scrubland-64819.herokuapp.com/home"
+                  href="https://optimistic-fermat-8bc5e2.netlify.app/index.html"
                   target="_blank"
                   rel="noreferrer"
                 >
