@@ -99,11 +99,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-<<<<<<< Updated upstream
-                  href="https://optimistic-fermat-8bc5e2.netlify.app/index.html"
-=======
                   href="https://tatacliq-website.onrender.com/"
->>>>>>> Stashed changes
                   target="_blank"
                   rel="noreferrer"
                 >
