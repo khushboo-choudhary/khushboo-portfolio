@@ -8,7 +8,12 @@
   .different {
     color: var(--clr-primary);
   }
-  
+ .intro {
+   margin-top: 5em;
+   position: relative;
+   /* Add position: relative; */
+   /* padding-top: 8em; */
+ }
   .introduction_logocontainer {
     flex-basis: 45%;
     display: flex;

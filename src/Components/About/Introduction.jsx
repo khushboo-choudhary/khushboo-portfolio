@@ -3,13 +3,12 @@ import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 
-
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <>
-      <section id="#about">
+      <section id="#about" className="intro">
         <div className="section" data-aos="fade-right">
           <h2 className="section__title">
             About <span className="different">Me</span>
@@ -23,15 +22,13 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, I am{" "}
-                <span className="different">Khushboo </span> from{" "}
-                <span className="different"> Bangalore, Karnataka</span>. I have
-                completed my graduation in Bachelor of Computer Science Engineering from Triuttani,
-                GRT Institute Of Engineering and Technology.
+                Hi Everyone, I am <span className="different">Khushboo </span>{" "}
+                from <span className="different"> Bangalore, Karnataka</span>. I
+                have completed my graduation in Bachelor of Computer Science
+                Engineering from Triuttani, GRT Institute Of Engineering and
+                Technology.
               </h4>
-              <h4>
-                Some of my interests apart form Coding :
-              </h4>
+              <h4>Some of my interests apart form Coding :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
