@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/heading-has-content */
 import React from "react";
 import "./Timeline.css";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
@@ -30,41 +31,76 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
-          
           <VerticalTimelineElement
-            date={"September 2021 - April 2022"}
-            
+            date={"October 2022 - April 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
-              color: `var(--clr-fg-alt)`
+              color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
             icon={<SchoolIcon />}
           >
             <div className="content">
+              <h3
+                className="vertical-timeline-element-title"
+                data-aos="fade-right"
+              >
+                Full Stack developer
+              </h3>
 
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Masai School (Remote)
-            </h4>
-            <p data-aos="fade-right">
-              Joined the Military style Bootcamp to learn Software Development
-              and Data Structures. Also learned many soft skills in the process.
-            </p>
+              <h4
+                className="vertical-timeline-element-subtitle"
+                data-aos="fade-right"
+              >
+                Quickiii Formerly Veerji(Remote)
+              </h4>
+              <p data-aos="fade-right">
+                I worked as a Full Stack Developer at Quickiii contributing to
+                the development of a seller application using React Native.
+                Started as an intern, later transitioned to a full-time role due
+                to performance and dedication.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"September 2021 - April 2022"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<SchoolIcon />}
+          >
+            <div className="content">
+              <h3
+                className="vertical-timeline-element-title"
+                data-aos="fade-right"
+              >
+                Student
+              </h3>
+              <h4
+                className="vertical-timeline-element-subtitle"
+                data-aos="fade-right"
+              >
+                Masai School (Remote)
+              </h4>
+              <p data-aos="fade-right">
+                Joined the Military style Bootcamp to learn Software Development
+                and Data Structures. Also learned many soft skills in the
+                process.
+              </p>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -74,30 +110,29 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
-              color: `var(--clr-fg-alt)`
+              color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
             icon={<SchoolIcon />}
           >
             <div className="content">
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Bachelor of Computer Science and Engineering
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-            </h4>
-            <p data-aos="fade-right">
-              Triuttani GRT Institute Of Engineering and Technology
-            </p>
+              <h3
+                className="vertical-timeline-element-title"
+                data-aos="fade-right"
+              >
+                Bachelor of Computer Science and Engineering
+              </h3>
+              <h4
+                className="vertical-timeline-element-subtitle"
+                data-aos="fade-right"
+              ></h4>
+              <p data-aos="fade-right">
+                Triuttani GRT Institute Of Engineering and Technology
+              </p>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -107,38 +142,37 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
-              color: `var(--clr-fg-alt)`
+              color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
             icon={<SchoolIcon />}
           >
             <div className="content">
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Completed Higher Secondary - Science
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-            </h4>
-            <p data-aos="fade-right">Government Girls Higher Secondary School, R.K.Pet, Tamil Nadu
-            </p>
+              <h3
+                className="vertical-timeline-element-title"
+                data-aos="fade-right"
+              >
+                Completed Higher Secondary - Science
+              </h3>
+              <h4
+                className="vertical-timeline-element-subtitle"
+                data-aos="fade-right"
+              ></h4>
+              <p data-aos="fade-right">
+                Government Girls Higher Secondary School, R.K.Pet, Tamil Nadu
+              </p>
             </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-           
             icon={<StarRateIcon />}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
           ></VerticalTimelineElement>
         </VerticalTimeline>

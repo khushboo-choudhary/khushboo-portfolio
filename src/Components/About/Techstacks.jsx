@@ -5,8 +5,13 @@ import {
   SiHtml5,
   SiMaterialui,
   SiExpress,
-  SiNetlify
+  SiNetlify,
+  SiRedux,
+  SiVercel,
+  SiPostman,
+  // SiRender,
 } from "react-icons/si";
+
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
@@ -35,12 +40,16 @@ export const Techstacks = () => {
             <h5>React</h5>
           </div>
           <div>
+            <SiRedux />
+            <h5>Redux</h5>
+          </div>
+          <div>
             <FaNodeJs />
             <h5>Nodejs</h5>
           </div>
           <div>
             <DiMongodb />
-            <h5>MongoDb</h5>
+            <h5>MongoDB</h5>
           </div>
 
           <div>
@@ -49,7 +58,7 @@ export const Techstacks = () => {
           </div>
           <div>
             <SiMaterialui />
-            <h5>Material Ui</h5>
+            <h5>Material UI</h5>
           </div>
           <div>
             <BsBootstrap />
@@ -59,9 +68,25 @@ export const Techstacks = () => {
             <SiNetlify />
             <h5>Netlify</h5>
           </div>
+          {/* <div>
+            <SiRender />
+            <h5>Render</h5>
+          </div> */}
+          <div>
+            <SiVercel />
+            <h5>Vercel</h5>
+          </div>
           <div>
             <VscGithub />
             <h5>Github</h5>
+          </div>
+          <div>
+            <SiPostman />
+            <h5>Postman</h5>
+          </div>
+          <div>
+            <FaReact />
+            <h5>React-Native</h5>
           </div>
         </div>
       </div>
