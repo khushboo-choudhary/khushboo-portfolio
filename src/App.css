@@ -33,6 +33,9 @@ main {
 
 .section {
   margin-top: 5em;
+  position: relative;
+    /* Add position: relative; */
+  padding-top: 8em;
 }
 
 .section__title {
