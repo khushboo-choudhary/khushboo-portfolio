@@ -19,14 +19,11 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-        An aspiring full-stack web developer
-        with specialization in MERN Stack.
-        Ambitious and motivated to learn all
-        things related to coding and
-        technology. Looking forward to
-        working in a challenging work
-        environment to kick start a career
-        while fulfilling organizational goals.
+          An aspiring full-stack web developer with specialization in MERN
+          Stack. Ambitious and motivated to learn all things related to coding
+          and technology. Looking forward to working in a challenging work
+          environment to kick start a career while fulfilling organizational
+          goals.
         </p>
         <div className="about__contact center">
           <a
