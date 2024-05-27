@@ -10,6 +10,7 @@ import {
   SiExpress,
   //   SiSocketdotio,
   SiTailwindcss,
+   SiFramer,
   // SiReactrouter,
   //   SiJavascript,
   SiChakraui,
@@ -232,6 +233,71 @@ export const Projects = () => {
                                   </span>
                               </a>
                               <a href="https://github.com/khushboo-choudhary/starwarsapi" target="_blank" rel="noreferrer">
+                                  <span type="button" className="btn btn--outline">
+                                      View Code
+                                  </span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div className="projects_container">
+                  <div className="project">
+                      <div className="project_videocontainer">
+                          <div data-aos="fade-right">
+                              <img src="Framer.png" alt="weather" />
+                          </div>
+                      </div>
+                      <div className="project_information" data-aos="fade-right">
+                          <h2>The Portfolyo</h2>
+                          <p>Built the Cloned of Portfolyo static application using React and Tailwind CSS.</p>
+                          <div>
+                              <SiReact />
+                              <SiVercel />
+                              <SiTailwindcss />
+                              <SiFramer />
+                          </div>
+                          <div>
+                              <a href="https://the-portfolyo-wheat.vercel.app/" target="_blank" rel="noreferrer">
+                                  <span type="button" className="btn btn--outline onbt">
+                                      See this Live
+                                  </span>
+                              </a>
+                              <a href="https://github.com/khushboo-choudhary/ThePortfolyo" target="_blank" rel="noreferrer">
+                                  <span type="button" className="btn btn--outline">
+                                      View Code
+                                  </span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div className="projects_container">
+                  <div className="project">
+                      <div className="project_videocontainer">
+                          <div data-aos="fade-right">
+                              <img src="biogeneratorapp.png" alt="weather" />
+                          </div>
+                      </div>
+                      <div className="project_information" data-aos="fade-right">
+                          <h2>Bio Generator App</h2>
+                          <p>
+                              The Bio generator application created using react. The translator features also implemented we can change the language
+                              in whole page.
+                          </p>
+                          <div>
+                              <SiReact />
+                              <SiVercel />
+                              <DiCss3 />
+                              <IoLogoJavascript />
+                          </div>
+                          <div>
+                              <a href="https://bio-generator-app-kappa.vercel.app/" target="_blank" rel="noreferrer">
+                                  <span type="button" className="btn btn--outline onbt">
+                                      See this Live
+                                  </span>
+                              </a>
+                              <a href="https://github.com/khushboo-choudhary/bio-generator-app" target="_blank" rel="noreferrer">
                                   <span type="button" className="btn btn--outline">
                                       View Code
                                   </span>
